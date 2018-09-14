@@ -1,3 +1,5 @@
+#programa que cria um gráfico ilustrando o nível de produção de um bem ou serviço gerador de externalidades negativas.
+#funções de custo marginal, benefício marginal e externalidade na margem arbitrárias e lineares.
 x <- 0:20
 
 a1 <- 2 
@@ -24,8 +26,8 @@ lines(x,c,col='green')
 lines(x,d,col='black')
 
 legend(0, -5, legend=c("Custo Marginal Privado", "Custo Marginal Social", 
-                       "Externalidade na Margem", "Benef�cio Marginal", 
-                       "Produto", "Produto Socialmente �timo"),
+                       "Externalidade na Margem", "Benefício Marginal", 
+                       "Produto", "Produto Socialmente Ótimo"),
        col=c("red", "blue", "green", "black", "red", "blue"), cex=0.75, text.font=2,
        lty=c(1,1,1,1,2,2), bty='n', ncol=2, x.intersp = 2)
 

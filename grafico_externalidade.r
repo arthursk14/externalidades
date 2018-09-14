@@ -1,5 +1,6 @@
 #programa que cria um gráfico ilustrando o nível de produção de um bem ou serviço gerador de externalidades negativas.
 #funções de custo marginal, benefício marginal e externalidade na margem arbitrárias e lineares.
+
 x <- 0:20
 
 a1 <- 2 
